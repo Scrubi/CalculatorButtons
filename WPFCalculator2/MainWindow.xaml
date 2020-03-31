@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPFCalculator2"
         mc:Ignorable="d"
         Title="Calculator XD" Height="300" Width="240">
-    <Grid>
+    <Grid Background="White">
         <!-- Defining Columns -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"></ColumnDefinition>
@@ -33,23 +33,23 @@
         </Grid.RowDefinitions>
         
         <!-- Calculation Text Field -->
-        <TextBox x:Name="calculate" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="1" Width="200" Height="40" FontSize="22" IsEnabled="False" />
-        <Button x:Name="delete" Grid.Column="4" Grid.Row="2" Content="DEL" Width="30" Height="30" Margin="5" Click="delete_Click" />
-        <Button x:Name="seven" Grid.Column="1" Grid.Row="3" Content="7" Width="30" Height="30" Margin="5" Click="seven_Click" />
-        <Button x:Name="eight" Grid.Column="2" Grid.Row="3" Content="8" Width="30" Height="30" Margin="5" Click="eight_Click" />
-        <Button x:Name="nine" Grid.Column="3" Grid.Row="3" Content="9" Width="30" Height="30" Margin="5" Click="nine_Click"/>
-        <Button x:Name="jako" Grid.Column="4" Grid.Row="3" Content="/" Width="30" Height="30" Margin="5" Click="jako_Click" />
-        <Button x:Name="four" Grid.Column="1" Grid.Row="4" Content="4" Width="30" Height="30" Margin="5" Click="four_Click"/>
-        <Button x:Name="five" Grid.Column="2" Grid.Row="4" Content="5" Width="30" Height="30" Margin="5" Click="five_Click"/>
-        <Button x:Name="six" Grid.Column="3" Grid.Row="4" Content="6" Width="30" Height="30" Margin="5" Click="six_Click"/>
-        <Button x:Name="kerto" Grid.Column="4" Grid.Row="4" Content="*" Width="30" Height="30" Margin="5" Click="kerto_Click" />
-        <Button x:Name="one" Grid.Column="1" Grid.Row="5" Content="1" Width="30" Height="30" Margin="5" Click="one_Click"/>
-        <Button x:Name="two" Grid.Column="2" Grid.Row="5" Content="2" Width="30" Height="30" Margin="5" Click="two_Click"/>
-        <Button x:Name="three" Grid.Column="3" Grid.Row="5" Content="3" Width="30" Height="30" Margin="5" Click="three_Click"/>
-        <Button x:Name="ero" Grid.Column="4" Grid.Row="5" Content="-" Width="30" Height="30" Margin="5" Click="ero_Click" />
-        <Button x:Name="zero" Grid.Column="1" Grid.Row="6" Content="0" Width="30" Height="30" Margin="5" Click="zero_Click" />
-        <Button x:Name="dot" Grid.Column="2" Grid.Row="6" Content="," Width="30" Height="30" Margin="5" Click="dot_Click" />
-        <Button x:Name="plus" Grid.Column="3" Grid.Row="6" Content="+" Width="30" Height="30" Margin="5" Click="plus_Click" />
-        <Button x:Name="equals" Grid.Column="4" Grid.Row="6" Content="=" Width="30" Height="30" Margin="5" Click="equals_Click" />
+        <TextBox x:Name="calculate" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="1" Width="200" Height="40" FontSize="22" IsEnabled="False" BorderBrush="Black" Background="Black" Foreground="DarkGreen" />
+        <Button x:Name="delete" Grid.Column="4" Grid.Row="2" Content="DEL" Width="30" Height="30" Margin="5" Click="delete_Click" Background="Black" Foreground="DarkGreen" BorderBrush="Black" />
+        <Button x:Name="seven" Grid.Column="1" Grid.Row="3" Content="7" Width="30" Height="30" Margin="5" Click="seven_Click" Background="Black" Foreground="DarkGreen" BorderBrush="Black" />
+        <Button x:Name="eight" Grid.Column="2" Grid.Row="3" Content="8" Width="30" Height="30" Margin="5" Click="eight_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen" />
+        <Button x:Name="nine" Grid.Column="3" Grid.Row="3" Content="9" Width="30" Height="30" Margin="5" Click="nine_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen"/>
+        <Button x:Name="jako" Grid.Column="4" Grid.Row="3" Content="/" Width="30" Height="30" Margin="5" Click="jako_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen" />
+        <Button x:Name="four" Grid.Column="1" Grid.Row="4" Content="4" Width="30" Height="30" Margin="5" Click="four_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen"/>
+        <Button x:Name="five" Grid.Column="2" Grid.Row="4" Content="5" Width="30" Height="30" Margin="5" Click="five_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen"/>
+        <Button x:Name="six" Grid.Column="3" Grid.Row="4" Content="6" Width="30" Height="30" Margin="5" Click="six_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen"/>
+        <Button x:Name="kerto" Grid.Column="4" Grid.Row="4" Content="*" Width="30" Height="30" Margin="5" Click="kerto_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen" />
+        <Button x:Name="one" Grid.Column="1" Grid.Row="5" Content="1" Width="30" Height="30" Margin="5" Click="one_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen"/>
+        <Button x:Name="two" Grid.Column="2" Grid.Row="5" Content="2" Width="30" Height="30" Margin="5" Click="two_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen"/>
+        <Button x:Name="three" Grid.Column="3" Grid.Row="5" Content="3" Width="30" Height="30" Margin="5" Click="three_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen"/>
+        <Button x:Name="ero" Grid.Column="4" Grid.Row="5" Content="-" Width="30" Height="30" Margin="5" Click="ero_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen" />
+        <Button x:Name="zero" Grid.Column="1" Grid.Row="6" Content="0" Width="30" Height="30" Margin="5" Click="zero_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen" />
+        <Button x:Name="dot" Grid.Column="2" Grid.Row="6" Content="," Width="30" Height="30" Margin="5" Click="dot_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen" />
+        <Button x:Name="plus" Grid.Column="3" Grid.Row="6" Content="+" Width="30" Height="30" Margin="5" Click="plus_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen" />
+        <Button x:Name="equals" Grid.Column="4" Grid.Row="6" Content="=" Width="30" Height="30" Margin="5" Click="equals_Click" Background="Black" BorderBrush="Black" Foreground="DarkGreen" />
     </Grid>
 </Window>
