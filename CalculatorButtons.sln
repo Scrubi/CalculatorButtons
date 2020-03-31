@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCalculator2", "WPFCalculator2\WPFCalculator2.csproj", "{0035D227-F880-4690-82A7-B028236FA36D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0035D227-F880-4690-82A7-B028236FA36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0035D227-F880-4690-82A7-B028236FA36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0035D227-F880-4690-82A7-B028236FA36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0035D227-F880-4690-82A7-B028236FA36D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62DCAD45-07F1-48AB-9EDB-F5A3F87D0828}
+	EndGlobalSection
+EndGlobal
